@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+.header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 13px rgba(145, 145, 155, 0.2);
+}
+.img-1 {
+  width: 70px;
+}
+.logo {
+  margin: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav2 {
+  display: flex;
+  margin-top: 15px;
+}
+a {
+  margin-left: 30px;
+  font-size: 16px;
+}
+.anchor1 {
+  margin-left: 400px;
+}
+.anchor2 {
+  font-size: 17px;
+}
+.fa-magnifying-glass {
+  font-size: 15px;
+  margin: 10px;
+}
+.fa-location-dot {
+  color: rgb(206, 21, 21);
+  font-size: 17px;
+  margin: 10px;
+}
+.fa-angle-down {
+  margin: 5px;
+  font-size: 14px;
+}
+.btn-1 {
+  margin-left: 55px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 200, 0);
+  padding: 13px 25px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.main {
+  background-image: url("./OreoShake.png");
+  width: 85%;
+  margin: 0 auto;
+  height: 80vh;
+  margin-top: 37px;
+  background-size: contain;
+  background-position: top right;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  justify-self: flex-end;
+}
+.card {
+  background-color: #fff;
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+}
+.card h1 {
+  margin-left: 30px;
+  margin: 20px;
+}
+.card p {
+  margin-left: 30px;
+  margin: 20px;
+}
+.btn-2 {
+  border: none;
+  outline: none;
+  background-color: rgb(255, 179, 0);
+  padding: 14px 27px;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+.dots {
+  display: flex;
+  margin: 20px;
+  margin-left: 25px;
+}
+.fa-circle {
+  font-size: 8px;
+  margin: 2px;
+  color: grey;
+}
+.fa-circle:hover {
+  color: rgb(206, 21, 21);
+}
+.carts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.cart {
+  background-color: #fff;
+  width: 365px;
+  height: 450px;
+  border-radius: 5px;
+  border: 1px solid rgb(206, 202, 202);
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img-2 {
+  width: 363px;
+}
+.btn-3 {
+  border: none;
+  outline: none;
+  background-color: rgb(255, 179, 0);
+  padding: 14px 27px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+.carts h1 {
+  margin: 10px;
+  color: rgb(206, 21, 21);
+}
+.carts p {
+  height: 160px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 28px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 140px;
+}
+.company {
+  margin-right: 180px;
+  line-height: 33px;
+}
+.company h3 {
+  font-size: 15px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  margin-left: 120px;
+}
+.icon {
+  margin-left: 30px;
+  font-size: 17px;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 200px;
+  width: 40px;
+  height: 40px;
+  padding: 10.5px;
+}
+.img-3 {
+  margin-left: 400px;
+}
+.last {
+  display: flex;
+  align-items: center;
+  margin: 70px;
+}
+.last p {
+  margin-left: 500px;
+}
+.img-4 {
+  width: 20px;
+}
+
+.border {
+  border-bottom: 1px solid gray;
+}
+.m1:hover {
+  background-color: rgb(108, 108, 238);
+}
+.m2:hover {
+  background-color: black;
+  color: #fff;
+}
+.m3:hover {
+  background-color: rgb(242, 56, 56);
+  color: #fff;
+}
+.m4:hover {
+  background-color: rgb(209, 87, 128);
+  color: #fff;
+}
+.m5:hover {
+  background-color: rgb(40, 124, 157);
+  color: #fff;
+}
+.m6:hover {
+  background-color: rgb(242, 56, 56);
+  color: #fff;
+}
